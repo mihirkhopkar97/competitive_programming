@@ -1,0 +1,2 @@
+Vision:
+The vision for this repository is to provide solutions to a lot of frequently asked interview questions from a competitive programming standpoint.
