@@ -4,7 +4,7 @@ int firstOcc(int *A, int n, int key){
     int s=0;
     int e=n-1;
     int mid;
-    int ans;
+    int ans=-1;
     while(s<=e){
         mid = s+(e-s)/2;
         if(A[mid]==key){
@@ -24,7 +24,7 @@ int lastOcc(int *A, int n, int key){
     int s=0;
     int e=n-1;
     int mid;
-    int ans;
+    int ans=-1;
     while(s<=e){
         mid = s+(e-s)/2;
         if(A[mid]==key){
